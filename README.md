@@ -1,2 +1,3 @@
-# ddd-sample
+# DDD sample
+
 SeedStack implementation of DDD sample app (https://github.com/citerus/dddsample-core).

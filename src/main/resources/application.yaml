@@ -1,0 +1,19 @@
+logging:
+  level: INFO
+
+application:
+  id: ddd-sample
+  basePackages: org.seedstack.samples.ddd
+
+mongoDb:
+  clients:
+    main:
+      databases: dddSample
+      uri: ${env.DB_URL}
+
+classes:
+  org:
+    seedstack:
+      samples:
+        mongoDbClient: main
+        mongoDbDatabase: dddSample
